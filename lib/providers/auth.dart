@@ -34,7 +34,7 @@ class Auth with ChangeNotifier {
   Future<void> _authenticate(
       String email, String password, String urlSegment) async {
     final url =
-        'https://identitytoolkit.googleapis.com/v1/accounts:$urlSegment?key=AIzaSyAvZoMzURAS3gaHElN2RCBghOC5QD7qtX4';
+        'https://identitytoolkit.googleapis.com/v1/accounts:$urlSegment?key="YOUR_PROJECT_KEY"';
     try {
       final response = await http.post(
         url,
@@ -132,42 +132,6 @@ class Auth with ChangeNotifier {
     });
   }
 
-  // void _autoLogout() {
-  //   if (_authTimer != null) {
-  //     _authTimer.cancel();
-  //   }
-  //   final timeToExpiry = _expiryDate.difference(DateTime.now()).inSeconds;
-  //   print(timeToExpiry);
-  //   _authTimer = Timer(Duration(seconds: timeToExpiry), logout);
-  // }
 
 }
 
-// import 'dart:convert';
-
-// import 'package:flutter/widgets.dart';
-// import 'package:http/http.dart' as http;
-
-// class Auth with ChangeNotifier {
-//   String _token;
-//   DateTime _expiryDate;
-//   String _userId;
-
-//   Future<void> signup(String email, String password) async {
-//     print('${email}Hello');
-//     print('${password}Hello');
-//     const url =
-//         'https://identitytoolkit.googleapis.com/v1/accounts:signUp?key=AIzaSyAvZoMzURAS3gaHElN2RCBghOC5QD7qtX4';
-//     final response = await http.post(
-//       url,
-//       body: json.encode(
-//         {
-//           'email': email,
-//           'password': password,
-//           'returnSecureToken': true,
-//         },
-//       ),
-//     );
-//     print(json.decode(response.body));
-//   }
-// }
