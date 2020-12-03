@@ -1,6 +1,19 @@
 # just_sell_it
 
-A new Flutter project.
+# This app is  made with Flutter and 🔥 Firebase 
+
+**Provider package is used For State Management**
+
+**To Run this app you have to use Your APIs For Authentication and using database**
+
+
+<img src ="screenshot/Shop_app%20(4).jpeg" width = 200> <img src ="screenshot/Shop_app%20(10).jpeg" width = 200>
+<img src ="screenshot/Shop_app%20(3).jpeg" width = 200> <img src ="screenshot/Shop_app%20(1).jpeg" width = 200>
+<img src ="screenshot/Shop_app%20(2).jpeg" width = 200> <img src ="screenshot/Shop_app%20(12).jpeg" width = 200>
+<img src ="screenshot/Shop_app%20(5).jpeg" width = 200> <img src ="screenshot/Shop_app%20(8).jpeg" width = 200>
+<img src ="screenshot/Shop_app%20(9).jpeg" width = 200> <img src ="screenshot/Shop_app%20(6).jpeg" width = 200>
+<img src ="screenshot/Shop_app%20(7).jpeg" width = 200> <img src ="screenshot/Shop_app%20(11).jpeg" width = 200>
+
 
 ## Getting Started
 
